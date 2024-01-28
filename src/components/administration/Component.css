@@ -1,0 +1,67 @@
+/* Component.css */
+
+.component-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.user-list,
+.product-list,
+.command-list,
+.category-list {
+  margin-top: 20px;
+}
+
+.user-item,
+.product-item,
+.command-item,
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-user-form,
+.add-product-form,
+.add-command-form,
+.add-category-form {
+  margin-top: 20px;
+}
+
+.add-user-form,
+.add-product-form,
+.add-command-form,
+.add-category-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user-form label,
+.add-product-form label,
+.add-command-form label,
+.add-category-form label {
+  margin-bottom: 8px;
+}
+
+.add-user-form input,
+.add-product-form input,
+.add-command-form input,
+.add-category-form input {
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.add-user-form button,
+.add-product-form button,
+.add-command-form button,
+.add-category-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
